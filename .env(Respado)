@@ -1,0 +1,25 @@
+######## VARIABLES PARA EXPRESS  ##################
+
+NODE_ENV = desarrollo
+PORT = 3500
+
+
+######## CREDENCIALES DE MONGODB ##################
+
+MONGO_HOST = cluster0-shard-00-00-yyyys.mongodb.net,cluster0-shard-00-01-yyyys.mongodb.net,cluster0-shard-00-02-yyyys.mongodb.net
+MONGO_PORT = 27017
+MONGO_DATABASE = example
+MONGO_USER = user_1
+MONGO_PASSWORD = G0Cslvzko3owynXe
+MONGO_REPLICASET = Cluster0-shard-0
+MONGO_SSL = 1   
+MONGO_AUTH_SOURCE = admin
+
+
+######## STATUS VARIABLES        ##################
+
+ERROR_INTERNO = ERROR INTERNO EN EL PROCESO
+PAGINA_NO_ENCONTRADA = PÁGINA NO ENCONTRADA
+EXITO_OPERACION = ÉXITO EN EL PROCESO
+FALLA_OPERACION = ERROR EN EL PROCESO
+VALIDACION_REGISTRO_ERROR = ERROR AL VALIDAR EL REGISTRO
